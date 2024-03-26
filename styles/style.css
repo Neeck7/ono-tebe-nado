@@ -59,8 +59,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
-    margin-top: 5px;
-    margin-right: 25.48px;
+    /* margin-top: 5px;
+    margin-right: 25.48px; */
     max-width: 240.52px;
     width: 100%;
     font-style: normal
@@ -68,6 +68,8 @@
 
 .header__address {
     justify-self: flex-end;
+    margin-top: 5px;
+    margin-right: 25.48px;
 }
 
 .main{
@@ -113,9 +115,6 @@
 
 .aligned-text_center {
     display: block;
-    /* position: relative;
-    top: 177px;
-    left: 336px; */
     padding: 13px 0px 0px 334px;
 }
 
@@ -202,7 +201,7 @@
     flex-wrap: wrap;
     max-width: 1052px;
     flex-direction: row;
-    column-gap: 25px;
+    gap: 25px;
     padding-bottom: 30px;
 }
 
@@ -269,7 +268,7 @@
 }
 
 .lots__look-more-link {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.48px;
