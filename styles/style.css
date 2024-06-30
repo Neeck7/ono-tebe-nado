@@ -308,7 +308,7 @@
     height: 114px;
 }
 
-.about__secondcolumn {
+.about__text-column {
     display: flex;
     flex-direction: column;
     align-self: flex-end;
